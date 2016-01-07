@@ -6,7 +6,7 @@ Set up this project in Eclipse and deploy this WAR to any Web Server like Tomcat
 In this example, database name created is pocprojects.
 
 Once deployed to Tomcat, start the server.
-http://localhost:<port>/<webappname>/login.jsp
+http://localhost:port/webappname/login.jsp
 
 Enter Admin Credentials user id : Admin and password : secret
 
