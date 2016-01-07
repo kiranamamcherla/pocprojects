@@ -1,5 +1,5 @@
 # pocprojects
-This repository contains working demo of springsceurity usinf ACL.
+This repository contains working demo of springsceurity using ACL.
 
 Set up this project in eclipse and deploy this WAR to tomcat server. Create db scripts present in sql.txt file in mysql database. 
 
