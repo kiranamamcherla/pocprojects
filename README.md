@@ -1,19 +1,23 @@
 # pocprojects
-This repository contains working demo of springsecurity using ACL.
+This repository contains working demo of Spring Security using ACL.
 
-Set up this project in eclipse and deploy this WAR to tomcat server. Create db scripts present in sql.txt file in mysql database. 
+Set up this project in Eclipse and deploy this WAR to any Web Server like Tomcat. Create db scripts present in sql.txt file in MySQL database. 
 
 In this example, database name created is pocprojects.
 
-Once deployed tomcat, start the server.
+Once deployed to Tomcat, start the server.
 http://localhost:<port>/<webappname>/login.jsp
 
-Enter admin credentials : Admin and password : secret
+Enter Admin Credentials user id : Admin and password : secret
 
-Post the news article, delete the news article
+Application will be launched with a screen for posting the News Article.
 
-Logout and login as user credentials : user1 and password : secret
+Once News Article is posted, there is a provision for deleting where delete link gets displayed.
 
-Post the news article, try for deleting the article posted by admin, will get 403 access forbideen error
+Try to delete the article posted by user or admin, article gets deleted.
+
+Logout from Admin and login with user credentials user id : user1 and password : secret
+
+Post the news article, try for deleting the article posted by admin, will get 403 access forbidden error
 
 Try to delete the news artcile posted by user, it gets deleted
